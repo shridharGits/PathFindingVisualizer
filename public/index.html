@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Path Finding Visualizer</h2>
+    </div>
+    <div class="navbar-1">
+        <div id="item-1">
+            <span>Algorithm</span>
+            <span><select name="algorithm" id="algorithm">
+                <option value="dijkstra">Dijkstra</option>
+                <option value="bfs">BFS</option>
+                <option value="dfs">DFS</option>
+            </select></span>
+        </div>
+        <div class=item-2>
+            <span>Choose</span>
+            <span><select name="edges" id="edges">
+                <option value="unweighted">Unweighted</option>
+                <option value="weighted">Weighted</option>
+            </select></span>
+        </div>
+        <div class="item-3">
+            <span>Speed</span>
+            <span><select name="speed" id="speed">
+                <option value="fast">Fast</option>
+                <option value="medium">Medium</option>
+                <option value="slow">Slow</option>
+            </select></span>
+        </div>
+    </div>
+    <div class="navbar-2">
+        <div><button id="start">Start</button></div>
+        <div><button id="reload">Reload</button></div>
+        <div><button id="reset">Reset</button></div>
+    </div>
+    <div class="container">
+        <h1>hey</h1>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
